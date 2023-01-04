@@ -21,7 +21,7 @@
 
 <li>Run this command to run the SQL Server image.</li>
 
-`docker run -p 1433:1433 -d sqlserver`
+`docker run -p 1433:1433 -d sqlserver --name sqlcontainer`
 
 <li>Connect to your database.</li>
 
