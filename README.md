@@ -1,4 +1,4 @@
-# Set up SQL Server Docker Image From Scratch
+# Set up SQL Server Container From Scratch
 
 <ol>
 
@@ -19,7 +19,7 @@
 
 `docker build -t sqlserver .`
 
-<li>Run this command to run the SQL Server image.</li>
+<li>Run this command to run the SQL Server container.</li>
 
 `docker run -p 1433:1433 -d sqlserver --name sqlcontainer`
 
@@ -31,6 +31,19 @@
 - Password is Appl3s123
 
 </ol>
+
+# Using the SQL Server Container After Setup
+
+Your SQL Server and schema live in the sqlcontainer Docker container.
+
+## To run this container, run this command.
+`docker start sqlcontainer`
+
+## To stop this container, run this command.
+`docker stop sqlcontainer`
+
+## To remove this container, run this command.
+`docker rm sqlcontainer`
 
 # (Optional step) If you need to connect from a Windows VM.
 
