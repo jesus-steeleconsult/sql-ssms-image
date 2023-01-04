@@ -29,7 +29,9 @@
 - Username is sa
 - Password is Appl3s123
 
-# If you need to connect from a Windows VM.
+</ol>
+
+# (Optional step) If you need to connect from a Windows VM.
 
 - Run Notepad as Administrator
 
@@ -38,5 +40,3 @@
 - Inside the hosts file, add `10.211.55.2  localmac`. (This IP address is the default value for Mac Terminal > ifconfig > vnic0 > inet. If the default value doesn’t work, find the inet address for your device and add it to the hosts file.)
 
 - http://localmac:[port] will be able to access apps and ports in your Windows VM served from your mac
-</ol>
-
