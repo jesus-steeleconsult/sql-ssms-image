@@ -8,6 +8,7 @@
 - [Link to Git Tool](https://git-scm.com/downloads)
 
 <li> Clone the SqlServer repo </li>
+
 - [Link to the repo](https://github.com/theonlyjesus/sqlserver)
 
 <li>Open Docker</li>
