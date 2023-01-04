@@ -23,18 +23,26 @@
 
 `docker run -p 1433:1433 -d sqlserver --name sqlcontainer`
 
-<li>Connect to your database.</li>
+</ol>
+
+# Using the SQL Server Container After Setup
+
+Your SQL Server and schema live in the sqlcontainer Docker container.
+
+## Connecting to SQL Server from your mac.
 
 - Open your database GUI.
 - The db connection is localhost, port 1433.
 - Username is sa
 - Password is Appl3s123
 
-</ol>
+## Connecting to SQL Server from a Parallels Windows VM after setup
 
-# Using the SQL Server Container After Setup
-
-Your SQL Server and schema live in the sqlcontainer Docker container.
+- If you haven't set up your VM to connect to the SQL Server container, skip to the optional step below.
+- Open your database GUI.
+- The db connection is localmac, port 1433.
+- Username is sa
+- Password is Appl3s123
 
 ## To run this container, run this command.
 `docker start sqlcontainer`
