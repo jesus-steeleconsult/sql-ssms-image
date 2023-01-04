@@ -29,14 +29,14 @@
 
 Your SQL Server and schema live in the sqlcontainer Docker container.
 
-## Connecting to SQL Server from your mac.
+## Connecting to SQL Server from your Mac.
 
 - Open your database GUI.
 - The db connection is localhost, port 1433.
 - Username is sa
 - Password is Appl3s123
 
-## Connecting to SQL Server from a Parallels Windows VM after setup
+## Connecting to SQL Server from a local Parallels Windows VM after setup
 
 - If you haven't set up your VM to connect to the SQL Server container, skip to the optional step below.
 - Open your database GUI.
@@ -44,16 +44,16 @@ Your SQL Server and schema live in the sqlcontainer Docker container.
 - Username is sa
 - Password is Appl3s123
 
-## To run this container, run this command.
+## Start Container Command
 `docker start sqlcontainer`
 
-## To stop this container, run this command.
+## Stop Container Command
 `docker stop sqlcontainer`
 
-## To remove this container, run this command.
+## Delete Container Command
 `docker rm sqlcontainer`
 
-# (Optional step) If you need to connect from a Windows VM.
+# (Optional step) Setup to connect from your Parallels Windows VM.
 
 - Run Notepad as Administrator
 
