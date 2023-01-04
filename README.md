@@ -2,10 +2,11 @@
 
 <ol>
 
-<li> Install Docker and Git. </li>
+<li> Install the software tools you'll need. </li>
 
 - [Link to Docker for Desktop](https://docs.docker.com/desktop/install/mac-install/)
 - [Link to Git Tool](https://git-scm.com/downloads)
+- [Link to Azure Data Studio](https://learn.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver15)
 
 <li> Clone the SqlServer repo </li>
 
@@ -29,12 +30,17 @@
 
 Your SQL Server and schema live in the sqlcontainer Docker container.
 
-## Connecting to SQL Server from your Mac.
+## Connecting to SQL Server from Azure Data Studio.
 
-- Open your database GUI.
-- The db connection is localhost, port 1433.
-- Username is sa
+- Open Azure Data Studio.
+- Select Create a connection.
+- The db connection is localhost.
+- Select Advanced...
+- Under General, set Port to 1433.
+- Select OK
+- User name is sa
 - Password is Appl3s123
+- Select Connect
 
 ## Connecting to SQL Server from a local Parallels Windows VM after setup
 
