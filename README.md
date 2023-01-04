@@ -22,7 +22,7 @@
 
 <li>Run this command to create and run a SQL Server container based on the image you created.</li>
 
-`docker run -p 1433:1433 -d sqlserver --name sqlcontainer`
+`docker run --name sqlcontainer -p 1433:1433 -d sqlserver`
 
 </ol>
 
